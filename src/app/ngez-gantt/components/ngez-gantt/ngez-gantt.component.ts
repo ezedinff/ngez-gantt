@@ -1,13 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {Project} from '../../interfaces/project';
 
 @Component({
-  selector: 'app-ngez-gantt',
+  selector: 'ngez-gantt',
   templateUrl: './ngez-gantt.component.html',
   styleUrls: ['./ngez-gantt.component.scss']
 })
 export class NgezGanttComponent implements OnInit {
-
-  constructor() { }
+  @Input()
+  _project: Project;
+  constructor() {
+  }
 
   ngOnInit() {
   }

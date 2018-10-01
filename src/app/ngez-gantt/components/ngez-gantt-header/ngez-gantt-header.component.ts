@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-ngez-gantt-header',
+  selector: 'ngez-gantt-header',
   templateUrl: './ngez-gantt-header.component.html',
   styleUrls: ['./ngez-gantt-header.component.scss']
 })
